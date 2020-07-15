@@ -10,3 +10,6 @@ base: main.cpp
 
 clean:
 	rm -f $(TARGET)
+
+reset: clean
+	git checkout main.cpp
