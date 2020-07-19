@@ -12,4 +12,5 @@ clean:
 	rm -f $(TARGET)
 
 reset: clean
+	cat main.cpp >> ./Unsolved/buffer.cpp
 	git checkout main.cpp
